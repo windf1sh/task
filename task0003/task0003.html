@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/task0005.css">
+</head>
+<body>
+<!--容器级div-->
+    <div id="container">
+<!--        头部区域-->
+        <header>
+            <p>GTD Tools</p>
+        </header>
+<!--        列表-->
+        <div id="list">
+            <!--        左侧列表-->
+            <div id="all-item">
+                <p>所有任务</p>
+                <p>分类列表</p>
+                <div id="directory">
+                    <div class="item">
+                        <p><img src="../images/file-open-fill.png" alt=""><span>百度IFE项目</span><strong class="remove">X</strong></p>
+                        <div id="no0" class="no">
+                            <p><img src="../images/file.png" alt=""><span>task1</span></p>
+                            <p><img src="../images/file.png" alt=""><span>task2</span></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p><img src="../images/file-open-fill.png" alt=""><span>毕业设计</span><strong class="remove">X</strong></p>
+                        <div id="no1" class="no">
+                            <p><img src="../images/file.png" alt=""><span>task3</span></p>
+                            <p><img src="../images/file.png" alt=""><span>task4</span></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p><img src="../images/file-open-fill.png" alt=""><span>社团活动</span><strong class="remove">X</strong></p>
+                        <div id="no2" class="no">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p><img src="../images/file-open-fill.png" alt=""><span>家庭生活</span><strong class="remove">X</strong></p>
+                        <div id="no3" class="no">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p id="current"><img src="../images/file-open-fill.png" alt=""><span>默认分类</span></p>
+                        <div id="no4" class="no">
+
+                        </div>
+                    </div>
+                </div>
+                <p id="create-item"><img src="../images/plus.png" alt=""><span>新增分类</span></p>
+            </div>
+            <!--        中间列表-->
+            <div id="file">
+                <div id="filter">
+                    <span id="selected">所有</span>
+                    <span>未完成</span>
+                    <span>已完成</span>
+                </div>
+                <div id="all-task">
+                    <div class="content">
+                        <p class="date">2019-09-20</p>
+                        <p class="task yes">to-do 1</p>
+                        <p class="task no">to-do 2</p>
+                    </div>
+                    <div class="content">
+                        <p class="date">2019-09-21</p>
+                        <p class="task no">to-do 3</p>
+                        <p class="task no">to-do 4</p>
+                    </div>
+                    <div class="content">
+                        <p class="date">2019-09-22</p>
+                        <p class="task no">to-do 5</p>
+                        <p class="task no">to-do 6</p>
+                    </div>
+                    <div class="content">
+                        <p class="date">2019-09-23</p>
+                        <p class="task no">to-do 7</p>
+                    </div>
+                </div>
+                <div id="create-file"><img src="../images/plus.png" alt=""><span>新增任务</span></div>
+            </div>
+            <!--        右侧列表-->
+            <div id="detail">
+<!--                新增/编辑任务界面-->
+                <div id="create-page">
+                    <p><label for="title">标题：</label><input type="text" id="title" placeholder="最大字数为10" maxlength="10"></p>
+                    <p><label for="date">日期：</label><input type="text" id="date" placeholder="yyyy-mm-dd"></p>
+                    <p><label for="content">内容：</label><textarea name="" id="content" cols="30" rows="2" placeholder="最大字数为20" maxlength="20"></textarea></p>
+                    <p>
+                        <button id="confirm">确认</button>
+                        <button id="cancel">取消</button>
+                    </p>
+                </div>
+<!--                任务详细信息-->
+                <div id="detail-page">
+                    <p id="detail-heading">
+                        <strong id="task-name"></strong>
+                        <img id="finish" src="../images/eglass-finish.png" alt="">
+                        <img id="edit" src="../images/edit.png" alt="">
+                    </p>
+                    <p id="task-date"></p>
+                    <p id="task-content">完成task3的编码任务。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/task0003.js"></script>
+</body>
+</html>

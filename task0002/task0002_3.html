@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task0002_3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 500px;
+            height: 600px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .btn {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 15px;
+        }
+
+        .pics {
+            list-style: none;
+            display: flex;
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+        }
+
+        .indexes {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .indexes>span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul class="pics">
+            <li><img src="../images/img0.jpeg" alt="img1"></li>
+            <li><img src="../images/img1.jpeg" alt="img2"></li>
+            <li><img src="../images/img2.jpeg" alt="img3"></li>
+            <li><img src="../images/img0.jpeg" alt="img1"></li>
+        </ul>
+        <ul class="indexes">
+            <span></span><span></span><span></span>
+        </ul>
+        <div class="btn">
+            <input type="button" value="正序轮播" class="right">
+            <input type="button" value="逆序轮播" class="left">
+        </div>
+    </div>
+
+    <script src="../scripts/task0002_3.js"></script>
+</body>
+</html>

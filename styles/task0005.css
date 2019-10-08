@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    color: #484848;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    min-width: 750px;
+    min-height: 750px;
+}
+
+/*头部*/
+header {
+    height: 10%;
+    line-height: 80px;
+    background-color: #ddd;
+}
+
+header>p {
+    font-size: 30px;
+    color: #999;
+}
+
+#list {
+    height: 90%;
+    padding-left: 502px;
+    box-sizing: border-box;
+}
+
+#all-item, #file, #detail {
+    float: left;
+}
+
+/*左侧列表*/
+#all-item {
+    width: 250px;
+    height: 100%;
+    background-color: #f2f2f2;
+    border-right: 1px solid #ddd;
+    position: relative;
+    margin-left: -502px;
+}
+
+#all-item>p {
+    margin: 20px;
+}
+
+.item {
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.item:hover .remove {
+    display: inline-block;
+    float: right;
+}
+
+.item>p>img {
+    margin-left: 20px;
+}
+
+.item>div>p {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.remove {
+    display: none;
+}
+
+#current {
+    background-color: #fff;
+}
+
+#create-item, #create-file {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#create-item>img, #create-file>img {
+    margin-left: 20px;
+}
+
+#all-item>#create-item, #all-item>#create-file {
+    margin: 0;
+}
+
+.no {
+    display: none;
+}
+
+/*中间列表*/
+#file {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    position: relative;
+    margin-left: -251px;
+}
+
+#all-task {
+    margin-top: 50px;
+}
+
+#all-task p {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 4em;
+}
+
+.task {
+    display: block;
+}
+
+.content>.date {
+    background-color: #fafaef;
+    text-indent: 2em;
+}
+
+.content>.yes, .content>.no {
+    cursor: pointer;
+}
+
+.content>.yes {
+    color: green;
+}
+
+#filter {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#filter>span {
+    cursor: pointer;
+    margin: 10px;
+    padding: 0 5px;
+    border: 1px solid #f2f2f2;
+}
+
+#filter>#selected {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/*右侧列表*/
+#detail {
+    width: 100%;
+    height: 100%;
+}
+
+#detail>#create-page, #detail>#detail-page {
+    width: 100%;
+}
+
+#detail>#create-page {
+    display: none;
+}
+
+#detail>#detail-page {
+    display: none;
+}
+
+#detail-heading, #task-date, #task-content {
+    text-indent: 2em;
+}
+
+#detail-heading {
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+#detail-heading>img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#detail-heading>#finish {
+    right: 72px;
+}
+
+#detail-heading>#edit {
+    right: 20px;
+}
+
+#task-date {
+    height: 70px;
+    line-height: 70px;
+    background-color: #fafaef;
+    border-bottom: 1px solid #ddd;
+}
+
+#task-content {
+    height: 70px;
+    line-height: 70px;
+}
+
+#create-page>p {
+    text-indent: 2em;
+}
+
+#create-page>p:nth-child(1) {
+    height: 70px;
+    line-height: 70px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+#create-page>p:nth-child(2) {
+    height: 70px;
+    line-height: 70px;
+    background-color: #fafaef;
+    border-bottom: 1px solid #ddd;
+}
+
+#create-page>p:nth-child(3) {
+    height: 70px;
+    line-height: 70px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+#create-page>p:nth-child(4) {
+    text-align: left;
+}
+
+button {
+    margin: 40px;
+}
+
+
+
+

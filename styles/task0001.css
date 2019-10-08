@@ -1,0 +1,228 @@
+/*任务2*/
+h1 {
+    color: blue;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+}
+
+img {
+    border: solid 2px red;
+}
+
+/*任务6*/
+/*div居中*/
+.center1 {
+    background-color: red;
+    width: 960px;
+    height: 240px;
+    margin: auto;
+}
+
+.center {
+    position: relative;
+}
+
+.center2 {
+    background-color: red;
+    width: 960px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+
+/*圆角*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, code,
+form,fieldset, legend,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.top {
+    height: 0;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid #111;
+    border-left: 3px solid transparent;
+}
+
+.content {
+    color: #fff;
+    background-color: #111;
+}
+
+.bottom {
+    height: 0;
+    border-top: 3px solid #111;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+/*左侧固定，右侧自适应*/
+.two1 {
+    position: relative;
+}
+.left1 {
+    width: 500px;
+    height: 200px;
+    background-color: #0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right1 {
+    /*不设置宽度，令其自适应*/
+    height: 200px;
+    background-color: #00f;
+    margin-left: 500px;
+}
+
+.two2 {
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.left2, .right2 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.left2 {
+    background-color: #f00;
+    width: 500px;
+    height: 200px;
+}
+
+.right2 {
+    width: calc(100% - 500px);
+    height: 200px;
+    background-color: yellow;
+}
+
+/*左右两侧固定，中间自适应*/
+body {
+    min-width: 700px;
+}
+
+header, footer {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: pink;
+}
+
+.wrapper1 {
+    overflow: hidden;
+    padding: 0 200px;
+    color: white;
+    text-align: center;
+}
+
+.middle {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin-left: -100%;
+    position: relative;
+    left: -200px;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin-left: -200px;
+    position: relative;
+    right: -200px;
+}
+
+footer {
+    clear: both;
+}
+
+.wrapper2 {
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.col {
+    float: left;
+}
+
+.main {
+    width: 100%;
+}
+
+.main-wrap {
+    height: 200px;
+    background-color: blue;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.sub {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: -100%;
+}
+
+.extra {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: -200px;
+}
+
+/*自适应浮动布局*/
+.float-container {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.float-element {
+    float: left;
+    width: 100px;
+    height: 80px;
+    background-color: blue;
+    margin: 10px;
+}
+
+
+
+
+
+
