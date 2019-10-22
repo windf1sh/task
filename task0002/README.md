@@ -58,6 +58,10 @@
 
 + 自己搭建一个后端Server，使用Ajax来获取提示数据
 
+示例：
+
+![设计稿 输入提示框](https://github.com/baidu-ife/ife/blob/master/2015_spring/task/task0002/img/task0002_sug.png)
+
 ## 小练习5：界面拖拽交互
 ### 任务描述
 + 实现一个可拖拽交互的界面
