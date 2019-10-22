@@ -9,3 +9,5 @@
 再创建一个css目录，在css目录中创建一个style.css用于编写样式。
 
 再创建一个img目录，用于存放页面编写中会使用到的图片。
+
+设计稿地址：[设计稿](https://github.com/baidu-ife/ife/tree/master/2015_spring/task/task0001/design)
