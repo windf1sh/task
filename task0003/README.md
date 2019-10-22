@@ -3,7 +3,7 @@
 
 参考设计稿实现一个简单的个人任务管理系统：如下图
 
-! [alt 设计稿] (https://github.com/baidu-ife/ife/blob/master/2015_spring/task/task0003/img/design.jpg)
+![alt 设计稿](https://github.com/baidu-ife/ife/blob/master/2015_spring/task/task0003/img/design.jpg)
 
 任务需求描述：
 
