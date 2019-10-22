@@ -70,3 +70,7 @@
 + 注意拖拽释放后，要添加到准确的位置
 + 拖拽到什么位置认为是可以添加到新容器的规则自己定
 + 注意交互中良好的用户体验和使用引导
+
+示例：
+
+![设计稿 界面拖拽](https://github.com/baidu-ife/ife/blob/master/2015_spring/task/task0002/img/task0002_drag.png)
